@@ -1,4 +1,4 @@
-# Nexaverse engineering handbook
+# Tesseract engineering handbook
 
 ## Service owners
 

@@ -4,9 +4,9 @@
 
 | Service | Team | Owner |
 |---|---|---|
-| auth-service | Platform | Elena Vasquez |
-| api-gateway | Infra | Raj Patel |
-| web-app | Product engineering | Marcus Rodriguez |
+| auth-service | Platform | Ishan Sinha |
+| api-gateway | Infra | Dhruv Pendharkar |
+| web-app | Product engineering | Karthik Valluri |
 
 ## Current migrations
 

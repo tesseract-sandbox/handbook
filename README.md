@@ -2,11 +2,23 @@
 
 ## Service owners
 
-| Service | Team | Owner |
+Ask the owner before changing a system; they also approve access to it (see [Access policy](access-policy.md)).
+
+| Service or system | Team | Owner |
 |---|---|---|
 | auth-service | Platform | Ishan Sinha |
 | api-gateway | Infra | Dhruv Pendharkar |
+| infra repo (terraform, runbooks) | Infra | Dhruv Pendharkar |
+| Grafana (staging and prod dashboards) | Infra | Dhruv Pendharkar |
+| prod read replica (`pg-prod-ro`) | Infra | Dhruv Pendharkar and Hamilton Park (both approve) |
 | web-app | Product engineering | Karthik Valluri |
+| ml-platform and the retrain pipeline | ML Platform | Karthik Valluri |
+
+## How we work
+
+- [Access policy](access-policy.md): asking for access to a repo, dashboard or database.
+- [Customer data exports](customer-data-exports.md): when a customer asks for their data as a file.
+- Staging signing keys rotate every two weeks: runbook in `infra/docs/runbooks/rotate-staging-keys.md`.
 
 ## Current migrations
 
